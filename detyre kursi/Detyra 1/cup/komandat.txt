@@ -1,0 +1,6 @@
+
+2. gjenerohet miniJavaLexer.flex
+3. javac *.java
+4. java miniJavaLexer .\test\Factorial.txt > result.txt
+	(ose)
+   java miniJavaLexer .\test\BubbleSort.txt > result2.txt

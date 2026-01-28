@@ -1,0 +1,150 @@
+
+...Creating Symbol-Table for [factorial.java]...
+
+   NEW METHOD: 9355 (DOMAIN: 5, RANGE: 5)
+   PUT printf IN  e0: {printf=(9355, null, true)} - VARIABLES: []
+   PUT scanf IN  e0: {scanf=(9355, null, true), printf=(9355, null, true)} - VARIABLES: []
+  e0: {scanf=(9355, null, true), printf=(9355, null, true)} - VARIABLES: []
+CLASS ENTRY: String
+  e1: (e0) {} - VARIABLES: []
+   NEW CLASS: 7String (NAME: String, SUPER: null, ENV: e1)
+   PUT String IN  e0: {scanf=(9355, null, true), String=(7String, 7String, true), printf=(9355, null, true)} - VARIABLES: []
+CLASS EXIT: String
+  e0: {scanf=(9355, null, true), String=(7String, 7String, true), printf=(9355, null, true)} - VARIABLES: []
+CLASS ENTRY: Int
+  e2: (e0) {} - VARIABLES: []
+   NEW CLASS: 7Int (NAME: Int, SUPER: null, ENV: e2)
+   PUT Int IN  e0: {scanf=(9355, null, true), String=(7String, 7String, true), Int=(7Int, 7Int, true), printf=(9355, null, true)} - VARIABLES: []
+   PUT VARIABLE n IN  e2: (e0) {n=(2, 7Int, false)} - VARIABLES: [n]
+   PUT Int IN  e2: (e0) {n=(2, 7Int, false), Int=null} - VARIABLES: [n]
+ CONSTRUCTOR ENTRY: Int
+  e3: (e2) {} - VARIABLES: []
+   PUT VARIABLE i IN  e3: (e2) {i=(2, 7Int, false)} - VARIABLES: [i]
+   NEW REFERENCE: 907Int (REFERRED: 7Int, WIDTH: 4)
+   NEW CONSTRUCTOR: 922907Int (DOMAIN: 2, RANGE: 907Int)
+   CHANGED Int IN  e2: (e0) {n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+ CONSTRUCTOR EXIT
+  e2: (e0) {n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+   PUT f IN  e2: (e0) {f=null, n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+ METHOD ENTRY: f
+  e4: (e2) {} - VARIABLES: []
+   NEW METHOD: 9352 (DOMAIN: 5, RANGE: 2)
+   CHANGED f IN  e2: (e0) {f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+ METHOD EXIT
+  e2: (e0) {f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+   PUT fact IN  e2: (e0) {fact=null, f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+ METHOD ENTRY: fact
+  e5: (e2) {} - VARIABLES: []
+   PUT VARIABLE n IN  e5: (e2) {n=(2, 7Int, false)} - VARIABLES: [n]
+   NEW METHOD: 9322 (DOMAIN: 2, RANGE: 2)
+   CHANGED fact IN  e2: (e0) {fact=(9322, 7Int, false), f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+ METHOD EXIT
+  e2: (e0) {fact=(9322, 7Int, false), f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+CLASS EXIT: Int
+  e0: {scanf=(9355, null, true), String=(7String, 7String, true), Int=(7Int, 7Int, true), printf=(9355, null, true)} - VARIABLES: []
+CLASS ENTRY: Test
+  e6: (e0) {} - VARIABLES: []
+   NEW CLASS: 7Test (NAME: Test, SUPER: null, ENV: e6)
+   PUT Test IN  e0: {Test=(7Test, 7Test, true), scanf=(9355, null, true), String=(7String, 7String, true), Int=(7Int, 7Int, true), printf=(9355, null, true)} - VARIABLES: []
+   PUT main IN  e6: (e0) {main=null} - VARIABLES: []
+ METHOD ENTRY: main
+  e7: (e6) {} - VARIABLES: []
+   CHANGED main IN  e6: (e0) {main=(9355, 7Test, true)} - VARIABLES: []
+   PUT VARIABLE n IN  e7: (e6) {n=(2, 7Test, false)} - VARIABLES: [n]
+   PUT VARIABLE f IN  e7: (e6) {f=(2, 7Test, false), n=(2, 7Test, false)} - VARIABLES: [n, f]
+   PUT VARIABLE t IN  e7: (e6) {t=(907Int, 7Test, false), f=(2, 7Test, false), n=(2, 7Test, false)} - VARIABLES: [n, f, t]
+ BLOCK ENTRY
+  e8: (e7) {} - VARIABLES: []
+   NEW REFERENCE: 907String (REFERRED: 7String, WIDTH: 4)
+   NEW PRODUCT: 91907String2 (LEFT: 907String, RIGHT: 2, WIDTH: 8)
+ BLOCK EXIT
+  e7: (e6) {t=(907Int, 7Test, false), f=(2, 7Test, false), n=(2, 7Test, false)} - VARIABLES: [n, f, t]
+   NEW PRODUCT: 9191907String22 (LEFT: 91907String2, RIGHT: 2, WIDTH: 12)
+ METHOD EXIT
+  e6: (e0) {main=(9355, 7Test, true)} - VARIABLES: []
+CLASS EXIT: Test
+  e0: {Test=(7Test, 7Test, true), scanf=(9355, null, true), String=(7String, 7String, true), Int=(7Int, 7Int, true), printf=(9355, null, true)} - VARIABLES: []
+Number of errors = 0.
+Number of warnings = 0.
+
+Types: 
+      1 = sbyte
+      2 = int
+      3 = double
+      4 = bool
+      5 = void
+      6 = error
+      7Int = Int
+      7String = String
+      7Test = Test
+      907Int = *Int
+      907String = *String
+      91907String2 = *String, int
+      9191907String22 = *String, int, int
+      922907Int = constructor: *Int(int)
+      9322 = method: int(int)
+      9352 = method: int(void)
+      9355 = method: void(void)
+
+...Generating intermediate code for [factorial.java]...
+
+  e0: {Test=(7Test, 7Test, true), scanf=(9355, null, true), String=(7String, 7String, true), Int=(7Int, 7Int, true), printf=(9355, null, true)} - VARIABLES: []
+CLASS ENTRY: String
+  e1: (e0) {} - VARIABLES: []
+   CURRENT CLASS: 7String (NAME: String, SUPER: null, ENV: e1)
+CLASS EXIT: String
+  e0: {Test=(7Test, 7Test, true), scanf=(9355, null, true), String=(7String, 7String, true), Int=(7Int, 7Int, true), printf=(9355, null, true)} - VARIABLES: []
+CLASS ENTRY: Int
+  e2: (e0) {fact=(9322, 7Int, false), f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+   CURRENT CLASS: 7Int (NAME: Int, SUPER: null, ENV: e2)
+ CONSTRUCTOR ENTRY: Int
+  e3: (e2) {i=(2, 7Int, false)} - VARIABLES: [i]
+ CONSTRUCTOR EXIT
+  e2: (e0) {fact=(9322, 7Int, false), f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+ METHOD ENTRY: f
+  e4: (e2) {} - VARIABLES: []
+   CURRENT METHOD: f, type: 9352 (DOMAIN: 5, RANGE: 2)
+ METHOD EXIT
+  e2: (e0) {fact=(9322, 7Int, false), f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+ METHOD ENTRY: fact
+  e5: (e2) {n=(2, 7Int, false)} - VARIABLES: [n]
+   CURRENT METHOD: fact, type: 9322 (DOMAIN: 2, RANGE: 2)
+ METHOD EXIT
+  e2: (e0) {fact=(9322, 7Int, false), f=(9352, 7Int, true), n=(2, 7Int, false), Int=(922907Int, 7Int, true)} - VARIABLES: [n]
+CLASS EXIT: Int
+  e0: {Test=(7Test, 7Test, true), scanf=(9355, null, true), String=(7String, 7String, true), Int=(7Int, 7Int, true), printf=(9355, null, true)} - VARIABLES: []
+CLASS ENTRY: Test
+  e6: (e0) {main=(9355, 7Test, true)} - VARIABLES: []
+   CURRENT CLASS: 7Test (NAME: Test, SUPER: null, ENV: e6)
+ METHOD ENTRY: main
+  e7: (e6) {t=(907Int, 7Test, false), f=(2, 7Test, false), n=(2, 7Test, false)} - VARIABLES: [n, f, t]
+   CURRENT METHOD: main, type: 9355 (DOMAIN: 5, RANGE: 5)
+ BLOCK ENTRY
+  e8: (e7) {} - VARIABLES: []
+ BLOCK EXIT
+  e7: (e6) {t=(907Int, 7Test, false), f=(2, 7Test, false), n=(2, 7Test, false)} - VARIABLES: [n, f, t]
+ METHOD EXIT
+  e6: (e0) {main=(9355, 7Test, true)} - VARIABLES: []
+CLASS EXIT: Test
+  e0: {Test=(7Test, 7Test, true), scanf=(9355, null, true), String=(7String, 7String, true), Int=(7Int, 7Int, true), printf=(9355, null, true)} - VARIABLES: []
+Number of errors = 0.
+Number of warnings = 0.
+
+Types: 
+      1 = sbyte
+      2 = int
+      3 = double
+      4 = bool
+      5 = void
+      6 = error
+      7Int = Int
+      7String = String
+      7Test = Test
+      907Int = *Int
+      907String = *String
+      91907String2 = *String, int
+      9191907String22 = *String, int, int
+      922907Int = constructor: *Int(int)
+      9322 = method: int(int)
+      9352 = method: int(void)
+      9355 = method: void(void)

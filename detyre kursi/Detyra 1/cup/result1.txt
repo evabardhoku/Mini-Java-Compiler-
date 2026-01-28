@@ -1,0 +1,1686 @@
+line: 1 col: 1 match: --class--
+action [66] { return symbol(sym.CLASS); }
+line: 1 col: 6 match: -- --
+action [119] { /* ignore */ }
+line: 1 col: 7 match: --BubbleSort--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 1 col: 17 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 1 col: 18 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 2 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 2 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 2 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 2 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 2 col: 5 match: --public--
+action [67] { return symbol(sym.PUBLIC); }
+line: 2 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 2 col: 12 match: --static--
+action [68] { return symbol(sym.STATIC); }
+line: 2 col: 18 match: -- --
+action [119] { /* ignore */ }
+line: 2 col: 19 match: --void--
+action [69] { return symbol(sym.VOID); }
+line: 2 col: 23 match: -- --
+action [119] { /* ignore */ }
+line: 2 col: 24 match: --main--
+action [70] { return symbol(sym.MAIN); }
+line: 2 col: 28 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 2 col: 29 match: --String--
+action [71] { return symbol(sym.STRING); }
+line: 2 col: 35 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 2 col: 36 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 2 col: 37 match: -- --
+action [119] { /* ignore */ }
+line: 2 col: 38 match: --a--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 2 col: 39 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 2 col: 40 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 2 col: 41 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 3 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 3 col: 2 match: --System.out.println--
+action [86] { return symbol(sym.SYSTEM); }
+line: 3 col: 20 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 3 col: 21 match: --new--
+action [79] { return symbol(sym.NEW); }
+line: 3 col: 24 match: -- --
+action [119] { /* ignore */ }
+line: 3 col: 25 match: --BBS--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 3 col: 28 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 3 col: 29 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 3 col: 30 match: --.--
+action [110] { return symbol(sym.DOT); }
+line: 3 col: 31 match: --Start--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 3 col: 36 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 3 col: 37 match: --10--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 3 col: 39 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 3 col: 40 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 3 col: 41 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 3 col: 42 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 4 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 4 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 4 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 4 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 4 col: 5 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 4 col: 6 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 5 col: 1 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 5 col: 2 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 6 col: 1 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 7 col: 1 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 8 col: 1 match: --// This class contains the array of integers and\u000D\u000A--
+action [119] { /* ignore */ }
+line: 9 col: 1 match: --// methods to initialize, print and sort the array\u000D\u000A--
+action [119] { /* ignore */ }
+line: 10 col: 1 match: --// using Bublesort\u000D\u000A--
+action [119] { /* ignore */ }
+line: 11 col: 1 match: --class--
+action [66] { return symbol(sym.CLASS); }
+line: 11 col: 6 match: -- --
+action [119] { /* ignore */ }
+line: 11 col: 7 match: --BBS--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 11 col: 10 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 11 col: 11 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 12 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 12 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 12 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 12 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 12 col: 5 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 13 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 13 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 13 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 13 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 13 col: 5 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 13 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 13 col: 9 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 13 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 13 col: 11 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 13 col: 17 match: -- --
+action [119] { /* ignore */ }
+line: 13 col: 18 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 13 col: 19 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 14 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 14 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 14 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 14 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 14 col: 5 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 14 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 14 col: 9 match: --size--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 14 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 14 col: 14 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 14 col: 15 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 15 col: 1 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 16 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 16 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 16 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 16 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 16 col: 5 match: --// Invoke the Initialization, Sort and Printing\u000D\u000A--
+action [119] { /* ignore */ }
+line: 17 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 17 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 17 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 17 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 17 col: 5 match: --// Methods\u000D\u000A--
+action [119] { /* ignore */ }
+line: 18 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 18 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 18 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 18 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 18 col: 5 match: --public--
+action [67] { return symbol(sym.PUBLIC); }
+line: 18 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 18 col: 12 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 18 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 18 col: 16 match: --Start--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 18 col: 21 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 18 col: 22 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 18 col: 25 match: -- --
+action [119] { /* ignore */ }
+line: 18 col: 26 match: --sz--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 18 col: 28 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 18 col: 29 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 18 col: 30 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 19 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 19 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 19 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 19 col: 6 match: --aux01--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 19 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 19 col: 12 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 19 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 20 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 20 col: 2 match: --aux01--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 20 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 20 col: 8 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 20 col: 9 match: -- --
+action [119] { /* ignore */ }
+line: 20 col: 10 match: --this--
+action [78] { return symbol(sym.THIS); }
+line: 20 col: 14 match: --.--
+action [110] { return symbol(sym.DOT); }
+line: 20 col: 15 match: --Init--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 20 col: 19 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 20 col: 20 match: --sz--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 20 col: 22 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 20 col: 23 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 20 col: 24 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 21 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 21 col: 2 match: --aux01--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 21 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 21 col: 8 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 21 col: 9 match: -- --
+action [119] { /* ignore */ }
+line: 21 col: 10 match: --this--
+action [78] { return symbol(sym.THIS); }
+line: 21 col: 14 match: --.--
+action [110] { return symbol(sym.DOT); }
+line: 21 col: 15 match: --Print--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 21 col: 20 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 21 col: 21 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 21 col: 22 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 21 col: 23 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 22 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 22 col: 2 match: --System.out.println--
+action [86] { return symbol(sym.SYSTEM); }
+line: 22 col: 20 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 22 col: 21 match: --99999--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 22 col: 26 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 22 col: 27 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 22 col: 28 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 23 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 23 col: 2 match: --aux01--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 23 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 23 col: 8 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 23 col: 9 match: -- --
+action [119] { /* ignore */ }
+line: 23 col: 10 match: --this--
+action [78] { return symbol(sym.THIS); }
+line: 23 col: 14 match: --.--
+action [110] { return symbol(sym.DOT); }
+line: 23 col: 15 match: --Sort--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 23 col: 19 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 23 col: 20 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 23 col: 21 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 23 col: 22 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 24 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 24 col: 2 match: --aux01--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 24 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 24 col: 8 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 24 col: 9 match: -- --
+action [119] { /* ignore */ }
+line: 24 col: 10 match: --this--
+action [78] { return symbol(sym.THIS); }
+line: 24 col: 14 match: --.--
+action [110] { return symbol(sym.DOT); }
+line: 24 col: 15 match: --Print--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 24 col: 20 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 24 col: 21 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 24 col: 22 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 24 col: 23 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 25 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 25 col: 2 match: --return--
+action [85] { return symbol(sym.RETURN); }
+line: 25 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 25 col: 9 match: --0--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 25 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 25 col: 11 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 25 col: 12 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 26 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 26 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 26 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 26 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 26 col: 5 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 26 col: 6 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 27 col: 1 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 28 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 28 col: 2 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 29 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 29 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 29 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 29 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 29 col: 5 match: --// Sort array of integers using Bublesort method\u000D\u000A--
+action [119] { /* ignore */ }
+line: 30 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 30 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 30 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 30 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 30 col: 5 match: --public--
+action [67] { return symbol(sym.PUBLIC); }
+line: 30 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 30 col: 12 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 30 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 30 col: 16 match: --Sort--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 30 col: 20 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 30 col: 21 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 30 col: 22 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 30 col: 23 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 31 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 31 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 31 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 31 col: 6 match: --nt--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 31 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 31 col: 9 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 31 col: 10 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 32 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 32 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 32 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 32 col: 6 match: --i--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 32 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 32 col: 8 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 32 col: 9 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 33 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 33 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 33 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 33 col: 6 match: --aux02--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 33 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 33 col: 12 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 33 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 34 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 34 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 34 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 34 col: 6 match: --aux04--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 34 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 34 col: 12 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 34 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 35 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 35 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 35 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 35 col: 6 match: --aux05--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 35 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 35 col: 12 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 35 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 36 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 36 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 36 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 36 col: 6 match: --aux06--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 36 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 36 col: 12 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 36 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 37 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 37 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 37 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 37 col: 6 match: --aux07--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 37 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 37 col: 12 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 37 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 38 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 38 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 38 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 38 col: 6 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 38 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 38 col: 8 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 38 col: 9 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 39 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 39 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 39 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 39 col: 6 match: --t--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 39 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 39 col: 8 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 39 col: 9 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 40 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 40 col: 2 match: --i--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 40 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 40 col: 4 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 40 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 40 col: 6 match: --size--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 40 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 40 col: 11 match: -----
+action [100] { return symbol(sym.MINUS); }
+line: 40 col: 12 match: -- --
+action [119] { /* ignore */ }
+line: 40 col: 13 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 40 col: 14 match: -- --
+action [119] { /* ignore */ }
+line: 40 col: 15 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 40 col: 16 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 41 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 41 col: 2 match: --aux02--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 41 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 41 col: 8 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 41 col: 9 match: -- --
+action [119] { /* ignore */ }
+line: 41 col: 10 match: --0--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 41 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 41 col: 12 match: -----
+action [100] { return symbol(sym.MINUS); }
+line: 41 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 41 col: 14 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 41 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 41 col: 16 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 41 col: 17 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 42 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 42 col: 2 match: --while--
+action [74] { return symbol(sym.WHILE); }
+line: 42 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 42 col: 8 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 42 col: 9 match: --aux02--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 42 col: 14 match: -- --
+action [119] { /* ignore */ }
+line: 42 col: 15 match: --<--
+action [112] { return symbol(sym.LT); }
+line: 42 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 42 col: 17 match: --i--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 42 col: 18 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 42 col: 19 match: -- --
+action [119] { /* ignore */ }
+line: 42 col: 20 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 42 col: 21 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 43 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 43 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 43 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 43 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 43 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 43 col: 6 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 43 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 43 col: 8 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 43 col: 9 match: -- --
+action [119] { /* ignore */ }
+line: 43 col: 10 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 43 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 43 col: 12 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 43 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 44 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 44 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 44 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 44 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 44 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 44 col: 6 match: --//aux03 = i+1 ;\u000D\u000A--
+action [119] { /* ignore */ }
+line: 45 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 45 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 45 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 45 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 45 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 45 col: 6 match: --while--
+action [74] { return symbol(sym.WHILE); }
+line: 45 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 45 col: 12 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 45 col: 13 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 45 col: 14 match: -- --
+action [119] { /* ignore */ }
+line: 45 col: 15 match: --<--
+action [112] { return symbol(sym.LT); }
+line: 45 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 45 col: 17 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 45 col: 18 match: --i--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 45 col: 19 match: --+--
+action [99] { return symbol(sym.PLUS); }
+line: 45 col: 20 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 45 col: 21 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 45 col: 22 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 45 col: 23 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 45 col: 24 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 46 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 46 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 46 col: 3 match: --aux07--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 46 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 46 col: 9 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 46 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 46 col: 11 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 46 col: 12 match: -- --
+action [119] { /* ignore */ }
+line: 46 col: 13 match: -----
+action [100] { return symbol(sym.MINUS); }
+line: 46 col: 14 match: -- --
+action [119] { /* ignore */ }
+line: 46 col: 15 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 46 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 46 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 46 col: 18 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 47 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 47 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 47 col: 3 match: --aux04--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 47 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 47 col: 9 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 47 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 47 col: 11 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 47 col: 17 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 47 col: 18 match: --aux07--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 47 col: 23 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 47 col: 24 match: -- --
+action [119] { /* ignore */ }
+line: 47 col: 25 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 47 col: 26 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 48 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 48 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 48 col: 3 match: --aux05--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 48 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 48 col: 9 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 48 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 48 col: 11 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 48 col: 17 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 48 col: 18 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 48 col: 19 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 48 col: 20 match: -- --
+action [119] { /* ignore */ }
+line: 48 col: 21 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 48 col: 22 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 49 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 49 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 49 col: 3 match: --if--
+action [72] { return symbol(sym.IF); }
+line: 49 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 49 col: 6 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 49 col: 7 match: --aux05--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 49 col: 12 match: -- --
+action [119] { /* ignore */ }
+line: 49 col: 13 match: --<--
+action [112] { return symbol(sym.LT); }
+line: 49 col: 14 match: -- --
+action [119] { /* ignore */ }
+line: 49 col: 15 match: --aux04--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 49 col: 20 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 49 col: 21 match: -- --
+action [119] { /* ignore */ }
+line: 49 col: 22 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 49 col: 23 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 50 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 50 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 50 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 6 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 7 match: --aux06--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 50 col: 12 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 13 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 50 col: 14 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 15 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 50 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 17 match: -----
+action [100] { return symbol(sym.MINUS); }
+line: 50 col: 18 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 19 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 50 col: 20 match: -- --
+action [119] { /* ignore */ }
+line: 50 col: 21 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 50 col: 22 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 51 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 51 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 51 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 51 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 51 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 51 col: 6 match: -- --
+action [119] { /* ignore */ }
+line: 51 col: 7 match: --t--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 51 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 51 col: 9 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 51 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 51 col: 11 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 51 col: 17 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 51 col: 18 match: --aux06--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 51 col: 23 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 51 col: 24 match: -- --
+action [119] { /* ignore */ }
+line: 51 col: 25 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 51 col: 26 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 52 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 52 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 52 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 52 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 52 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 52 col: 6 match: -- --
+action [119] { /* ignore */ }
+line: 52 col: 7 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 52 col: 13 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 52 col: 14 match: --aux06--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 52 col: 19 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 52 col: 20 match: -- --
+action [119] { /* ignore */ }
+line: 52 col: 21 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 52 col: 22 match: -- --
+action [119] { /* ignore */ }
+line: 52 col: 23 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 52 col: 29 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 52 col: 30 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 52 col: 31 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 52 col: 32 match: -- --
+action [119] { /* ignore */ }
+line: 52 col: 33 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 52 col: 34 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 53 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 53 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 53 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 53 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 53 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 53 col: 6 match: -- --
+action [119] { /* ignore */ }
+line: 53 col: 7 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 53 col: 13 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 53 col: 14 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 53 col: 15 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 53 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 53 col: 17 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 53 col: 18 match: -- --
+action [119] { /* ignore */ }
+line: 53 col: 19 match: --t--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 53 col: 20 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 53 col: 21 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 54 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 54 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 54 col: 3 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 54 col: 4 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 55 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 55 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 55 col: 3 match: --else--
+action [73] { return symbol(sym.ELSE); }
+line: 55 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 55 col: 8 match: --nt--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 55 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 55 col: 11 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 55 col: 12 match: -- --
+action [119] { /* ignore */ }
+line: 55 col: 13 match: --0--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 55 col: 14 match: -- --
+action [119] { /* ignore */ }
+line: 55 col: 15 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 55 col: 16 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 56 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 56 col: 2 match: --\u0009--
+action [119] { /* ignore */ }
+line: 56 col: 3 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 56 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 56 col: 5 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 56 col: 6 match: -- --
+action [119] { /* ignore */ }
+line: 56 col: 7 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 56 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 56 col: 9 match: --+--
+action [99] { return symbol(sym.PLUS); }
+line: 56 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 56 col: 11 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 56 col: 12 match: -- --
+action [119] { /* ignore */ }
+line: 56 col: 13 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 56 col: 14 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 57 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 57 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 57 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 57 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 57 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 57 col: 6 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 57 col: 7 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 58 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 58 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 6 match: --i--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 58 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 8 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 58 col: 9 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 10 match: --i--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 58 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 12 match: -----
+action [100] { return symbol(sym.MINUS); }
+line: 58 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 14 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 58 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 58 col: 16 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 58 col: 17 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 59 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 59 col: 2 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 59 col: 3 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 60 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 60 col: 2 match: --return--
+action [85] { return symbol(sym.RETURN); }
+line: 60 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 60 col: 9 match: --0--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 60 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 60 col: 11 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 60 col: 12 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 61 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 61 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 61 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 61 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 61 col: 5 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 61 col: 6 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 62 col: 1 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 63 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 63 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 63 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 63 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 63 col: 5 match: --// Printing method\u000D\u000A--
+action [119] { /* ignore */ }
+line: 64 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 64 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 64 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 64 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 64 col: 5 match: --public--
+action [67] { return symbol(sym.PUBLIC); }
+line: 64 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 64 col: 12 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 64 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 64 col: 16 match: --Print--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 64 col: 21 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 64 col: 22 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 64 col: 23 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 64 col: 24 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 65 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 65 col: 2 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 65 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 65 col: 6 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 65 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 65 col: 8 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 65 col: 9 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 66 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 66 col: 2 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 66 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 66 col: 4 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 66 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 66 col: 6 match: --0--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 66 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 66 col: 8 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 66 col: 9 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 67 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 67 col: 2 match: --while--
+action [74] { return symbol(sym.WHILE); }
+line: 67 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 67 col: 8 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 67 col: 9 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 67 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 67 col: 11 match: --<--
+action [112] { return symbol(sym.LT); }
+line: 67 col: 12 match: -- --
+action [119] { /* ignore */ }
+line: 67 col: 13 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 67 col: 14 match: --size--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 67 col: 18 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 67 col: 19 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 67 col: 20 match: -- --
+action [119] { /* ignore */ }
+line: 67 col: 21 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 67 col: 22 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 68 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 68 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 68 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 68 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 68 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 68 col: 6 match: --System.out.println--
+action [86] { return symbol(sym.SYSTEM); }
+line: 68 col: 24 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 68 col: 25 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 68 col: 31 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 68 col: 32 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 68 col: 33 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 68 col: 34 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 68 col: 35 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 68 col: 36 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 69 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 69 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 5 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 6 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 69 col: 7 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 8 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 69 col: 9 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 10 match: --j--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 69 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 12 match: --+--
+action [99] { return symbol(sym.PLUS); }
+line: 69 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 14 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 69 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 69 col: 16 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 69 col: 17 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 70 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 70 col: 2 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 70 col: 3 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 71 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 71 col: 2 match: --return--
+action [85] { return symbol(sym.RETURN); }
+line: 71 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 71 col: 9 match: --0--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 71 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 71 col: 11 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 71 col: 12 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 72 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 72 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 72 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 72 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 72 col: 5 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 72 col: 6 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 73 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 73 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 73 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 73 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 73 col: 5 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 74 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 74 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 74 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 74 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 74 col: 5 match: --// Initialize array of integers\u000D\u000A--
+action [119] { /* ignore */ }
+line: 75 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 75 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 75 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 75 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 75 col: 5 match: --public--
+action [67] { return symbol(sym.PUBLIC); }
+line: 75 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 75 col: 12 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 75 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 75 col: 16 match: --Init--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 75 col: 20 match: --(--
+action [106] { return symbol(sym.LPAREN); }
+line: 75 col: 21 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 75 col: 24 match: -- --
+action [119] { /* ignore */ }
+line: 75 col: 25 match: --sz--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 75 col: 27 match: --)--
+action [107] { return symbol(sym.RPAREN); }
+line: 75 col: 28 match: --{--
+action [102] { return symbol(sym.LBRACE); }
+line: 75 col: 29 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 76 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 76 col: 2 match: --size--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 76 col: 6 match: -- --
+action [119] { /* ignore */ }
+line: 76 col: 7 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 76 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 76 col: 9 match: --sz--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 76 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 76 col: 12 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 76 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 77 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 77 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 77 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 77 col: 9 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 77 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 77 col: 11 match: --new--
+action [79] { return symbol(sym.NEW); }
+line: 77 col: 14 match: -- --
+action [119] { /* ignore */ }
+line: 77 col: 15 match: --int--
+action [81] { return symbol(sym.INT); }
+line: 77 col: 18 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 77 col: 19 match: --sz--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 77 col: 21 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 77 col: 22 match: -- --
+action [119] { /* ignore */ }
+line: 77 col: 23 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 77 col: 24 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 78 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 78 col: 2 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 79 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 79 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 79 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 79 col: 9 match: --0--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 79 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 79 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 79 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 79 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 79 col: 14 match: --20--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 79 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 79 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 79 col: 18 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 80 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 80 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 80 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 80 col: 9 match: --1--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 80 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 80 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 80 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 80 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 80 col: 14 match: --7--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 80 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 80 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 80 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 80 col: 18 match: -- --
+action [119] { /* ignore */ }
+line: 80 col: 19 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 81 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 81 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 81 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 81 col: 9 match: --2--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 81 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 81 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 81 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 81 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 81 col: 14 match: --12--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 81 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 81 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 81 col: 18 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 82 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 82 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 82 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 82 col: 9 match: --3--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 82 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 82 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 82 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 82 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 82 col: 14 match: --18--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 82 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 82 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 82 col: 18 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 83 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 83 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 83 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 83 col: 9 match: --4--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 83 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 83 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 83 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 83 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 83 col: 14 match: --2--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 83 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 83 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 83 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 83 col: 18 match: -- --
+action [119] { /* ignore */ }
+line: 83 col: 19 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 84 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 84 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 84 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 84 col: 9 match: --5--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 84 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 84 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 84 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 84 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 84 col: 14 match: --11--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 84 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 84 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 84 col: 18 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 85 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 85 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 85 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 85 col: 9 match: --6--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 85 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 85 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 85 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 85 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 85 col: 14 match: --6--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 85 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 85 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 85 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 85 col: 18 match: -- --
+action [119] { /* ignore */ }
+line: 85 col: 19 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 86 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 86 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 86 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 86 col: 9 match: --7--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 86 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 86 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 86 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 86 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 86 col: 14 match: --9--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 86 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 86 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 86 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 86 col: 18 match: -- --
+action [119] { /* ignore */ }
+line: 86 col: 19 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 87 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 87 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 87 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 87 col: 9 match: --8--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 87 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 87 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 87 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 87 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 87 col: 14 match: --19--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 87 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 87 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 87 col: 18 match: -- --
+action [119] { /* ignore */ }
+line: 87 col: 19 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 88 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 88 col: 2 match: --number--
+action [90] { return symbol(sym.IDENTIFIER); }
+line: 88 col: 8 match: --[--
+action [104] { return symbol(sym.LBRACKET); }
+line: 88 col: 9 match: --9--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 88 col: 10 match: --]--
+action [105] { return symbol(sym.RBRACKET); }
+line: 88 col: 11 match: -- --
+action [119] { /* ignore */ }
+line: 88 col: 12 match: --=--
+action [97] { return symbol(sym.EQ); }
+line: 88 col: 13 match: -- --
+action [119] { /* ignore */ }
+line: 88 col: 14 match: --5--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 88 col: 15 match: -- --
+action [119] { /* ignore */ }
+line: 88 col: 16 match: -- --
+action [119] { /* ignore */ }
+line: 88 col: 17 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 88 col: 18 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 89 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 89 col: 2 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 90 col: 1 match: --\u0009--
+action [119] { /* ignore */ }
+line: 90 col: 2 match: --return--
+action [85] { return symbol(sym.RETURN); }
+line: 90 col: 8 match: -- --
+action [119] { /* ignore */ }
+line: 90 col: 9 match: --0--
+action [93] { return symbol(sym.INTEGER_LITERAL); }
+line: 90 col: 10 match: -- --
+action [119] { /* ignore */ }
+line: 90 col: 11 match: --;--
+action [108] { return symbol(sym.SEMICOLON); }
+line: 90 col: 12 match: --\u0009--
+action [119] { /* ignore */ }
+line: 90 col: 13 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 91 col: 1 match: -- --
+action [119] { /* ignore */ }
+line: 91 col: 2 match: -- --
+action [119] { /* ignore */ }
+line: 91 col: 3 match: -- --
+action [119] { /* ignore */ }
+line: 91 col: 4 match: -- --
+action [119] { /* ignore */ }
+line: 91 col: 5 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 91 col: 6 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 92 col: 1 match: --\u000D\u000A--
+action [119] { /* ignore */ }
+line: 93 col: 1 match: --}--
+action [103] { return symbol(sym.RBRACE); }
+line: 93 col: 2 match: --\u000D\u000A--
+action [119] { /* ignore */ }

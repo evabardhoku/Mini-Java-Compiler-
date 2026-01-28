@@ -1,0 +1,4 @@
+java java_cup.Main minijavaParser.cup
+java java_cup.Main -parser parser -interface minijavaParser.cup
+javac parser.java
+javac Scanner.java sym.java parser.java JavaSymbol.java symtab\*.java

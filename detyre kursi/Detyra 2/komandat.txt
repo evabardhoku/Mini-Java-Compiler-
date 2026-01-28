@@ -1,0 +1,7 @@
+
+2. gjenerohet miniJavaLexer.flex (jflex miniJavaLexer.flex)
+3. java java_cup.Main miniJava.cup
+4. javac *.java
+5. java parser .\test\factorial.java > .\test\result1.txt
+	(ose)
+   java parser .\test\sh_gabim.java > .\test\result2.txt
